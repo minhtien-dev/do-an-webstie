@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after ::before {
+  margin: 0;
+  padding: 0;
+}
+header .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+/* SLIDE BANNER */
+#banner>ul {
+  margin-top: -20vh;
+  position: relative;
+}
+#banner>ul>li {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color:#ff7600;
+}
+#banner>ul>.active {
+  background-color: black;
+}
+/* MENU TOP */
+.menutop {
+  width: 100%;
+  height: 20vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  /* background-color: aqua; */
+  background: rgba(247,246,245,0.6);
+  margin-top: -3vh;
+  /* opacity: 0.7; */
+}
+.menutop>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* input search */
+.box {
+  height: 40px;
+  background-color: #f7f9fa;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.box>input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.box>input::placeholder {
+  color: orange;
+  font-size: 1rem;
+}
+
+.box>a {
+  color: whitesmoke;
+  text-align: center;
+  width: 60px;
+  font-size: 20px;
+}
+
+.box>input {
+  width: 100%;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+
+.box>input:focus {
+  /* width: 200px; */
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+/* logo menu  */
+.menutop-logo>img {
+  height: 70%;
+  width: 80%;
+}
+/* menutop login */
+.menutop-login {
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.menutop-login>img {
+  width: 8%;
+ /* margin-left: -30px; */
+ margin-right: 10px;
+}
+.menutop-login> .action {
+  width: 35%;
+  height: 80%;
+  /* background-color: brown; */
+  /* margin-right: 5px; */
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+.menutop-login> .action >a {
+  margin: 5px;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+}
+.menutop-login> .action >a:hover {
+  text-decoration: none;
+  color: #ff0000;
+}
+.menutop-login> .cart {
+  /* background-color: cornflowerblue; */
+}
+.menutop-login> .cart >a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.menutop-login> .cart >a > img {
+  width: 60%;
+}
+.menutop-login> .cart >a > span {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  border-radius: 10px;
+}
+.menutop-login> .cart >a > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+/* printf cart - thong bao gio hang */
+.printf-cart {
+  width: 30vh;
+  height: 5vh;
+  position: absolute;
+  margin-top: -5vh;
+  margin-left: -10vh;
+  background-color: #f7f9fa;
+  border-radius: 10px 20px 10px 30px;
+  display: none;
+}
+.printf-cart>p {
+ margin-top: 10px;
+}
+.menutop-login .cart:hover .printf-cart{
+  display: block;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
