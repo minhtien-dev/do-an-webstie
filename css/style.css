@@ -208,10 +208,18 @@ header .container-fluid {
   /* position: relative; */
 
 }
+.menubotdom>ul>li>.active {
+  color: #ff0000;
+}
 .menubotdom>ul>li>a {
   font-size: 1.1rem;
   color: black;
   font-weight: 750;
+  transition: 0.4s;
+}
+.menubotdom>ul>li>a:hover {
+  color: #ff0000;
+  text-decoration: none;
 }
 .menubotdom>ul>li>a>.fa-sort-down {
   font-size: 1.2rem;
@@ -222,7 +230,7 @@ header .container-fluid {
 /* MENU CON - MENU DA CAP */
 .list-sanpham {
   /* position: relative; */
-  background-color: #ff0000;
+  /* background-color: #ff0000; */
 }
 
 .list-sanpham .menu-con {
@@ -258,6 +266,13 @@ header .container-fluid {
   font-size: 1rem;
   font-weight: 700;
   color: black;
+  transition: 0.3s;
+}
+.list-menu-con>div>a>span:hover {
+  color: #ff0000;
+}
+.list-menu-con>div>a:hover {
+  text-decoration: none;
 }
 .list-menu-con>div>ul {
   /* background-color: #ff7600; */
@@ -268,9 +283,15 @@ header .container-fluid {
   margin-left: -2rem;
 }
 .list-menu-con>div>ul>li>a {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #737373;
-  font-weight: 450;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.list-menu-con>div>ul>li>a:hover{
+  color: rgb(24, 4, 4);
+  text-decoration: none;
+  font-weight: 600;
 }
 .list-menu-con>div>img {
   width: 100%;
@@ -279,5 +300,5 @@ header .container-fluid {
 /* MAIN */
 .main {
   height: 100vh;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
