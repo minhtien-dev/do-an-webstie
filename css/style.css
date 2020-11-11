@@ -37,6 +37,7 @@ header .container-fluid {
   background: rgba(247,246,245,0.6);
   margin-top: -3vh;
   /* opacity: 0.7; */
+  /* display: none; */
 }
 .menutop>div {
   display: flex;
@@ -183,6 +184,7 @@ header .container-fluid {
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
+  /* display: none; */
 }
 .menubotdom>ul {
   display: flex;
@@ -315,6 +317,7 @@ header .container-fluid {
 #list-rom {
   /* height: 100vh; */
   background-color: #f3f3f3;
+  /* display: none; */
 }
 .list-rom {
   /* height: 60vh; */
@@ -339,7 +342,7 @@ header .container-fluid {
 }
 .list-rom .tieude-rom {
   width: 60%;
-  height: 25%;
+  height: 20%;
   background-color: #ffffff;
   position: absolute;
   margin-top: -23rem;
