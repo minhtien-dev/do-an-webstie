@@ -81,7 +81,7 @@
 .post-slide .post-link li{
   display: inline-block;
   margin-right:10px;
-  background-color: #333;
+  background-color:#f00bca;
   border-radius: 50%;
 }
 
@@ -117,6 +117,7 @@
 .post-slide .post-review{
   padding: 15px 0;
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .post-slide .post-title{
