@@ -11,11 +11,70 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"/>
     <link rel="stylesheet" href="./css/slidesp.css">
-    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/media.css">
     <title>SMART STORE</title>
   </head>
   <body>
-     <header id="slide">
+	  <sidebar id="list-menu-mobile">
+		  <div class="container-fluid list-menu-mobile">
+			<div class="row logo-menu-mobile">
+				<img src="./img/logo.png" alt="">
+				<div class="close-menu-mobile">
+					<i class="fas fa-times close-menu-dt"></i>
+				</div>
+			</div>
+			<div class="row nav-list-menu">
+				<ul>
+					<li><a href="">Trang chủ</a></li>
+					<li class="list-sp-mobile"><a href="">Sản phẩm </a>
+						<span class="show-menu-con-mobile-1"><i class="fas fa-plus-circle"></i></span>
+						<span class="show-menu-con-mobile-2"><i class="fas fa-eye-slash"></i></span>
+						<ul class="menu-con-mobile">
+							<li><a href="">Phòng ngủ</a></li>
+							<li><a href="">Phòng khách</a></li>
+							<li><a href="">Nhà bếp</a></li>
+							<li><a href="">sản phẩm nổi bật</a></li>
+							<li><a href="">Sản phẩm khuyến mãi</a></li>
+						</ul>
+					</li>
+					<li><a href="">Tin tức</a></li>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Liên hệ</a></li>
+				</ul>
+			</div>
+			</div>
+		  </div>
+	  </sidebar>
+	  <section id="menu-mobile">
+		 <div class="container-fluid menu-mobile">
+			 <div class="row menu-search-mobile" >
+				<div class="box">
+					<input type="text" placeholder="Bạn tìm sản phẩm gì ?" />
+					<a><i class="fas fa-search-location"></i></a>
+				</div>
+				<div class="cart-menutop-login">
+					<a href="">
+					  <span>0</span>
+					  <img src="./img/icon-cart.png" alt="">
+					</a>
+				</div>
+			 </div>
+			 <div class="row menu-bottom-mobile">
+				<div class="col-3">
+					<i class="fas fa-bars show-menu-dt"></i>
+				</div>
+				<div class="col-6">
+					<img src="./img/logo.png" alt="">
+				</div>
+				<div class="col-3">
+					<img src="./img/icon-action.png" alt="">
+				</div>
+			 </div>
+			 </div>
+		 </div> 
+	  </section>
+     <section id="slide">
       <div class="container-fluid">
         <!-- BANNER -->
         <div id="banner" class="carousel slide" data-ride="carousel">
@@ -32,7 +91,7 @@
             <li data-target="#banner" data-slide-to="1"></li>
           </ul>
     </div>
-  </header>
+  </section>
   <section id="menu">
      <!-- MENU TOP  -->
      <div class="menutop row">
@@ -51,7 +110,7 @@
           <a href="">Đăng nhập</a>
           <a href="">Đăng ký</a>
         </div>
-        <div class="cart">
+        <div class="cart-menutop-login">
           <div class="printf-cart">
             <p>0 sản phẩm</p>
           </div>
@@ -123,7 +182,7 @@
   <section id="list-rom">
     <div class="container list-rom">
      <div class="row">
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4 col-6">
         <div class="img-hover-zoom img-hover-zoom--brightness">
           <img src="./img/pkhach.jpg" alt="">
           <div class="tieude-rom">
@@ -135,7 +194,7 @@
         </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-6 img-hover-zoom img-hover-zoom--brightness">
+      <div class="col-md-4 col-6 img-hover-zoom img-hover-zoom--brightness">
         <div class="img-hover-zoom img-hover-zoom--brightness">
           <img src="./img/pngu.jpg" alt="">
           <div class="tieude-rom">
@@ -147,7 +206,7 @@
         </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm-12 img-hover-zoom img-hover-zoom--brightness">
+      <div class="col-md-4 col-12 img-hover-zoom img-hover-zoom--brightness">
           <div class="img-hover-zoom img-hover-zoom--brightness">
             <img src="./img/pbep.jpg" alt="">
             <div class="tieude-rom">
@@ -345,7 +404,7 @@
           <div class="cten-spmoi container"></div>
         </div>
         <div class="row main-pkhach">
-          <div class="col-md-3 col-12 main-left-pk">
+          <div class="col-lg-3 col-md-12 main-left-pk">
             <ul>
               <li><a href="">Ghế Sofa Bộ</a></li>
               <li><a href="">Ghế Sofa Đơn</a></li>
@@ -359,9 +418,9 @@
               <img src="./img/pkhach-left.jfif" alt="">
             </div>
           </div>
-          <div class="col-md-9 col-12 main-right-pk">
+          <div class="col-lg-9 col-md-12 main-right-pk">
             <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -382,7 +441,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -403,7 +462,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -424,7 +483,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -445,10 +504,10 @@
                     </div>
                 </div>
               </div>
-            </div>
+			</div>
             <!-- phongkhach2 -->
-            <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+            <div class="row list-sp-pk list-sp-xt">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -469,7 +528,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -490,7 +549,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -511,7 +570,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -532,8 +591,8 @@
                     </div>
                 </div>
               </div>
-            </div>
-          </div>
+			</div>
+		  </div>
         </div>
       </div>
     </section>
@@ -545,7 +604,7 @@
           <div class="cten-spmoi container"></div>
         </div>
         <div class="row main-pkhach">
-          <div class="col-md-3 col-12 main-left-pk">
+          <div class="col-lg-3 col-md-12 main-left-pk">
             <ul>
               <li><a href="">Giường ngủ hiện đại</a></li>
               <li><a href="">Tủ đầu giường</a></li>
@@ -559,9 +618,9 @@
               <img src="./img/pngu-left.png" alt="">
             </div>
           </div>
-          <div class="col-md-9 col-12 main-right-pk">
+          <div class="col-lg-9 col-md-12 main-right-pk">
             <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -582,7 +641,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -603,7 +662,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -624,7 +683,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -647,8 +706,8 @@
               </div>
             </div>
             <!-- phongkhach2 -->
-            <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+            <div class="row list-sp-pk" >
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -669,7 +728,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -690,7 +749,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -711,7 +770,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -738,14 +797,14 @@
       </div>
     </section>
     <!-- PHONG KHACH-->
-    <section id="phongngu" class="cpn-rom">
+    <section id="phongbep" class="cpn-rom">
       <div class="container">
         <div class="row tieude-phongkhach">
           <h2><a href="">Phòng Bếp</a></h2>
           <div class="cten-spmoi container"></div>
         </div>
         <div class="row main-pkhach">
-          <div class="col-md-3 col-12 main-left-pk">
+          <div class="col-lg-3 col-md-12 main-left-pk">
             <ul>
               <li><a href="">Bàn ghế ăn</a></li>
               <li><a href="">Tủ bếp gổ</a></li>
@@ -756,9 +815,9 @@
               <img src="./img/pbep-left.png" alt="">
             </div>
           </div>
-          <div class="col-md-9 col-12 main-right-pk">
+          <div class="col-lg-9 col-md-12 main-right-pk">
             <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -779,7 +838,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -800,7 +859,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -821,7 +880,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -845,7 +904,7 @@
             </div>
             <!-- phongkhach2 -->
             <div class="row list-sp-pk">
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach1.jpg" alt="">
@@ -866,7 +925,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach2.jpg" alt="">
@@ -887,7 +946,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach3.jpg" alt="">
@@ -908,7 +967,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-sm-3 col-6">
+              <div class="col-lg-3 col-6">
                 <div class="post-slide post-slide-pk">
                   <div class="post-img">
                       <img src="./img/pkhach4.jpg" alt="">
@@ -937,7 +996,7 @@
 	<section id="rewiew_shop">
 		<div class="container rewiew_shop">
 			<div class="row rewiew_shop_main">
-				<div class="col-md-6 col-sm-12 rewiew_shop_main_left">
+				<div class="col-lg-6 col-md-12 rewiew_shop_main_left">
 					<div class="tieude_rewiew">
 						<h2><a href=""><span>Cẩm nang nha đẹp</span></a></h2>
 					</div>
@@ -980,14 +1039,14 @@
 					  </div>
 					<!-- end -->
 				</div>
-				<div class="col-md-6 col-sm-12 rewiew_shop_main_right">
+				<div class="col-lg-6 col-md-12 rewiew_shop_main_right">
 					<div class="tieude_rewiew">
 						<h2><a href=""><span>Hãy cùng trải nghiệm</span></a></h2>
 					</div>
 					<div class="gach_chan_rewiew"></div>
 					<div id="slide-tn" class="carousel slide slide-tn" data-ride="carousel">
 						
-						<div class="carousel-inner">
+						<div class="carousel-inner" >
 						  <div class="carousel-item active carousel-item-slide-tn">
 							<div>
 								<p>Không gian gia đình thật sự càng tuyệt với sau khi được tư vấn và sắp
@@ -1032,12 +1091,12 @@
 	</section>
 	<section id="kienthuc">
 		<div class="container">
-			<div class="row tieude-phongkhach">
+			<div class="row tieude-phongkhach" >
 				<h2><a href="">Kiến thức phong thủy</a></h2>
 				<div class="cten-spmoi container"></div>
 			</div>
-			<div class="row main-kthuc">
-				<div class="col-md-4">
+			<div class="row main-kthuc" style="flex-wrap: wrap;">
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt1.jpg" alt="">
@@ -1050,7 +1109,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt2.jpg" alt="">
@@ -1063,22 +1122,20 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt3.jpg" alt="">
 						    <div>
-								<a href="">Nội thất phòng khách nhập khẩu được ưa chuộng trong 2019</a>
+								<a href="">Nội thất phòng khách nhập khẩu </a>
 								<p>Nếu ví ngôi nhà là một cá thể nhất định thì không gian phòng khách 
 									chính là vẻ bề ngoài còn nội thất của phòng khách thể hiện phần...</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!--  -->
-			<div class="row main-kthuc">
-				<div class="col-md-4">
+				<!--  -->
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt4.png" alt="">
@@ -1090,7 +1147,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt5.jpg" alt="">
@@ -1104,7 +1161,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6">
 					<div class="card-kthuc">
 						<div>
 							<img src="./img/kt6.jpg" alt="">
@@ -1119,11 +1176,12 @@
 			</div>
 			<div class="btn-rewiew-shop"><a href="">Xem tất cả</a></div>
 		</div>
+		</div>
 	</section>
 	<section id="foodter">
 		<div class="container-fluid main-foodter">
 			<div class="row main-top-fter">
-				<div class="col-md-3 col-sm-12">
+				<div class="col-lg-3 col-6">
 					<h3>Chính sách</h3>
 					<ul>
 						<li><a href="">Chính sách đổi trả</a></li>
@@ -1133,7 +1191,7 @@
 						<li><a href="">Chính sách trả góp</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 col-sm-12">
+				<div class="col-lg-3 col-6">
 					<h3>Kênh bán hàng</h3>
 					<ul>
 						<li><a href="">Sendo</a></li>
@@ -1143,7 +1201,7 @@
 						<li><a href="">Lazada</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 col-sm-12">
+				<div class="col-lg-3 col-6">
 					<h3>Về chúng tôi</h3>
 					<ul>
 						<li><a href="">Trang chủ</a></li>
@@ -1153,7 +1211,7 @@
 						<li><a href="">Liên hệ</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 col-sm-12">
+				<div class="col-lg-3 col-6">
 					<h3>Liên hệ</h3>
 					<ul>
 						<li><a href=""><i class="fas fa-map-marker-alt"></i>442 Đội Cấn - Ba Đình - Hà Nội</a></li>
@@ -1162,7 +1220,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row main-botdom-fter">
+			<div class="main-botdom-fter">
 				<img src="./img/logo.png" alt="">
 				<p>Công ty Cổ phần Đầu tư MewMew là nhà bán lẻ số 1 Việt Nam về doanh thu và lợi nhuận, 
 					với mạng lưới hơn 2200 cửa hàng trên toàn quốc. MewMew vận hành các chuỗi cửa hàng
@@ -1191,8 +1249,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-    <script type="text/javascript">
+	<script>
         $(document).ready(function() {
             $("#news-slider").owlCarousel({
                 items : 4,
@@ -1203,6 +1260,21 @@
                 navigation:true,
                 navigationText:["",""]
             });
+			$(".show-menu-con-mobile-1").click(function(){
+				$(".menu-con-mobile").show(200);
+				$(".show-menu-con-mobile-2").show(200);
+				$(".show-menu-con-mobile-1").hide(200);
+			});
+			$(".show-menu-con-mobile-2").click(function(){
+				$(".menu-con-mobile").hide(200);
+				$(".show-menu-con-mobile-2").hide(200);
+				$(".show-menu-con-mobile-1").show(200);
+			});
+			$(".show-menu-dt").click(function(){
+				$("#list-menu-mobile").show(200);
+				$("section").hide(200);
+			});
+			
         });
     </script>
   </body>
