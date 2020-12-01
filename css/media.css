@@ -1,0 +1,220 @@
+@media only screen and (max-width: 767.98px) {
+	.main-kthuc .card-kthuc {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 991.98px){
+	.list-rom>div>div {
+		height: 45vh;
+	}
+	.list-rom .tieude-rom {
+		margin-top: -10rem;
+	}
+	.post-review .post-title a {
+		font-size: 0.8rem;
+	}
+	.post-review .price span {
+		font-size: 0.7rem;
+		font-weight: 850;
+	}
+	.hd-tieude-rom dt {
+		font-size: 0.7rem;
+	}
+	.bd-tieude-rom a {
+		font-size: 0.7rem;
+	}
+	.main-left-pk {
+		display: none;
+	}
+	
+	.list-sp-pk>div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+	.post-slide {
+		width: 85%;
+	}
+	.post-slide .post-img {
+		height: 70%;
+	}
+	.btn-rewiew-shop {
+		margin-bottom: 1rem;
+	}
+	
+
+	#menu {
+		display: none;
+	}
+	#banner>ul {
+		margin-top: -1rem;
+	}
+	#menu-mobile {
+		display: block;
+		
+	}
+	.menu-mobile {
+		background-color: #f3f3f3;
+		height: 20vh;
+	}
+	.menu-mobile>div {
+		height: 50%;
+	}
+	.cart-menutop-login img {
+		height: 1.8rem;
+	}
+	.menu-search-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.menu-bottom-mobile .fa-bars {
+		font-size: 2rem;
+	}
+	.menu-bottom-mobile> div {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.menu-bottom-mobile> .col-6 > img {
+		height: 90%;	
+	}
+	.menu-bottom-mobile> .col-3 > img {
+		height: 60%;
+	}
+	.menu-bottom-mobile> .col-3 >i {
+		cursor: pointer;
+	}
+	#list-menu-mobile {
+		display: none;
+	}
+	
+	.list-menu-mobile {
+		height: 100vh;
+		width: 100%;
+		/* background-color: aqua; */
+	}
+	.list-menu-mobile>div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.logo-menu-mobile{
+		border-bottom: 2px solid orangered;
+		height: 15vh;
+	}
+	.logo-menu-mobile>img {
+		height: 90%;
+	}
+	.close-menu-mobile {
+		position: fixed;
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+		top: 0; right: 0; width: 3rem;height: 3rem;
+	}
+	.close-menu-mobile>.fa-times {
+		font-size: 2rem;
+		cursor: pointer;
+	}
+	.nav-list-menu {
+		height: 70vh;
+		/* background-color: chartreuse; */
+	}
+	.nav-list-menu>ul {
+		/* background-color: brown; */
+		width: 100%;
+		height: 100%;
+	}
+	.nav-list-menu>ul>li {
+		list-style: none;
+		margin: 2rem;
+		border-bottom: 1px solid olive;
+		
+	}
+	.nav-list-menu>ul>li>a {
+		color: black;
+		font-size: 1.1rem;
+		font-weight: 600;
+	}
+	.nav-list-menu>ul>li>a:hover {
+		text-decoration: none;
+	}
+	.menu-con-mobile {
+		display: none;
+	}
+	.menu-con-mobile>li {
+		list-style: none;
+		margin: 0.5rem;
+	}
+	.menu-con-mobile>li>a {
+		font-size: 1rem;
+		color: black;
+		font-weight: 500;
+	}
+	.show-menu-con-mobile-1 {
+		margin-left: 5rem;
+		cursor: pointer;
+		
+	}
+	.show-menu-con-mobile-2 {
+		margin-left: 5rem;
+		display: none;
+		cursor: pointer;
+	}
+		
+}
+
+@media only screen and (max-width: 1199.98px){
+
+/* PHAN MENU CHINH */
+	.menubotdom>ul {
+	/* background-color: aqua; */
+	width: 65%;
+}
+.slide-tn {
+	height: 43vh;
+}
+.carousel-item-slide-tn {
+		height: 43vh;
+		/* background-color: brown; */
+	}
+.carousel-item-slide-tn p {
+		font-size: 0.7rem;
+		margin-top: -1rem;
+		/* background-color: aqua; */
+	}
+.main-top-fter div h3 {
+	font-size: 1.1rem;
+}
+.main-top-fter div ul {
+	margin-left: -0.5rem;
+}
+.main-top-fter div ul li a {
+	font-size: 0.8rem;
+}
+.main-botdom-fter>img {
+	margin-top: 3rem;
+}
+.main-botdom-fter>p {
+	font-size: 0.8rem;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+	#menu-mobile {
+		display: none;
+	}
+	#list-menu-mobile {
+		display: none;
+	}
+	.show-list-fter {
+		display: none;
+	}
+	
+}

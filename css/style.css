@@ -127,26 +127,26 @@ header .container-fluid {
   text-decoration: none;
   color: #ff0000;
 }
-.menutop-login> .cart {
+.cart-menutop-login {
   /* background-color: cornflowerblue; */
 }
-.menutop-login> .cart >a {
+.cart-menutop-login>a {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-.menutop-login> .cart >a > img {
+.cart-menutop-login>a > img {
   width: 60%;
 }
-.menutop-login> .cart >a > span {
+.cart-menutop-login>a > span {
   width: 24px;
   height: 24px;
   background-color: black;
   border-radius: 10px;
 }
-.menutop-login> .cart >a > span {
+.cart-menutop-login>a > span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@ header .container-fluid {
 .printf-cart>p {
  margin-top: 10px;
 }
-.menutop-login .cart:hover .printf-cart{
+.cart-menutop-login:hover .printf-cart{
   display: block;
   display: flex;
    align-items: center;
@@ -366,7 +366,6 @@ header .container-fluid {
    transition: 1s;
  }
  .bd-tieude-rom {
-   /* background-color: aqua; */
    height: 60%;
    display: flex;
    align-items: center;
@@ -403,13 +402,10 @@ header .container-fluid {
 }
 /* SAN PHẨM MỚI  */
 #sanphammoi {
-  /* height: 100vh; */
   background-color: #f3f3f3;
-  /* margin-bottom: 5vh; */
 }
 .tieude-spmoi {
   height: 10vh;
-  /* background-color: blueviolet; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -465,13 +461,9 @@ header .container-fluid {
 }
 /* PHONG KHACH */
 .cpn-rom {
-  /* height: 100vh; */
   background-color: #f3f3f3;
 }
 .tieude-phongkhach {
-  /* position: relative; */
-  /* background-color: aqua; */
-  /* height: 10vh; */
   margin-bottom: 1rem;
 }
 .tieude-phongkhach h2 {
@@ -503,17 +495,12 @@ header .container-fluid {
     border-width: 45px 0 0 36px;
     border-color: transparent transparent transparent #ff7600;
 }
-.main-pkhach {
-  height: 90vh;
-}
 .main-left-pk {
-  /* background-color: blue; */
   background-color: #ffffff;
   margin-bottom: 1rem;
 }
 .main-left-pk>ul{
   height: 50%;
-  /* background-color: #ff0000; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -523,7 +510,6 @@ header .container-fluid {
 }
 .main-left-pk>ul>li {
   list-style: none;
-  /* background-color: #ccc; */
   flex-grow: 1;
 }
 .main-left-pk>ul>li>a {
@@ -556,15 +542,11 @@ header .container-fluid {
 }
 /* MAIN RIGHT */
 .main-right-pk {
-  /* background-color: beige; */
-  /* margin: 0; */
-  /* padding: 0; */
   margin-bottom: 1rem;
 }
 .main-right-pk .list-sp-pk {
   height: 50%;
   width: 100%;
-  /* background-color: aqua; */
   margin-left: 1rem;
 }
 .main-right-pk .list-sp-pk >div {
@@ -584,17 +566,7 @@ header .container-fluid {
   font-size: 0.8rem;
 }
 /* REWIEW SHOP */
-#rewiew_shop{
-	/* background-color: aqua; */
-	/* height: 60vh; */
-}
-.rewiew_shop_main {
-	/* border: 1px solid; */
-	/* height: 60vh; */
-}
-.rewiew_shop_main_left {
-	/* background-color: burlywood; */
-}
+
 .tieude_rewiew h2 {
     font-size: 1rem;
     font-weight: bold;
@@ -755,18 +727,16 @@ header .container-fluid {
   }
   /* KIEN THUC */
   .main-kthuc {
-	  /* background-color: aqua; */
-	  height: 50vh;
 	  margin-bottom: 2rem;
   }
   .main-kthuc>div {
-	  /* border: 1px solid; */
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
+	  margin-bottom: 1rem;
+	  
   }
   .main-kthuc .card-kthuc {
-	  /* background-color: brown; */
 	  height: 100%;
 	  width: 80%;
 	  border: 1px solid orangered;
@@ -792,10 +762,9 @@ header .container-fluid {
   .main-kthuc .card-kthuc img {
 	  width: 100%;
 	  height: 45%;
-	  /* margin-top: 1rem; */
   }
   .main-kthuc .card-kthuc a {
-	  font-size: 1rem;
+	  font-size: 0.8rem;
 	  color: black;
 	  font-weight: 700;
 	  text-align: center;
@@ -812,19 +781,15 @@ header .container-fluid {
   /* FOODTER */
   .main-foodter {
 	  margin-top: 2rem;
-	  /* height: 80vh; */
-	  background-color: aqua;
   }
   .main-top-fter {
-	  height: 40vh;
+	  /* height: 40vh; */
 	  background-color:  #101010;
   }
   .main-top-fter>div {
 	  height: inherit;
-	  /* border: 1px solid; */
 	  display: flex;
 	  flex-direction: column;
-	  /* align-items: center; */
 	  justify-content: center;
   }
   .main-top-fter>div>h3 {
@@ -834,7 +799,6 @@ header .container-fluid {
 	  margin-left: 2rem;
   }
   .main-top-fter>div>ul {
-	  /* background-color: lightcoral; */
 	  height: 60%;
 	  margin-top: 1rem;
 	  display: flex;
@@ -856,7 +820,6 @@ header .container-fluid {
 	  margin-right: 1rem;
   }
   .main-botdom-fter {
-	  height: 50vh;
 	  background-color: #f3f3f3;
 	  display: flex;
 	  flex-direction: column;
@@ -865,6 +828,7 @@ header .container-fluid {
   }
   .main-botdom-fter>img {
 	  width: 200px;
+	  margin-top: 1rem;
 	  /* background-color: #ff7600; */
   }
   .main-botdom-fter>p {
