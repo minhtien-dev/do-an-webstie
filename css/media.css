@@ -1,12 +1,9 @@
 @media only screen and (max-width: 767.98px) {
-	/* .main-kthuc .card-kthuc {
-		width: 80%;
-	} */
+	.main-kthuc .card-kthuc {
+		width: 90%;
+	}
 	.list-sp-pk>div {
 		margin-bottom: 1rem;
-	}
-	.hd-tieude-rom>dt {
-		font-size: 0.6rem ;
 	}
 	.post-review .price span {
 		font-size: 0.6rem;
