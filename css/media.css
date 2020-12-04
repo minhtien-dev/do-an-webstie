@@ -5,6 +5,12 @@
 	.list-sp-pk>div {
 		margin-bottom: 1rem;
 	}
+	.hd-tieude-rom>dt {
+		font-size: 0.6rem ;
+	}
+	.post-review .price span {
+		font-size: 0.6rem;
+	}
 }
 
 @media only screen and (max-width: 991.98px){
