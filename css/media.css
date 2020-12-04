@@ -2,6 +2,9 @@
 	/* .main-kthuc .card-kthuc {
 		width: 80%;
 	} */
+	.list-sp-pk>div {
+		margin-bottom: 1rem;
+	}
 }
 
 @media only screen and (max-width: 991.98px){
@@ -46,7 +49,7 @@
 	}
 	
 
-	#menu {
+	.menutop {
 		display: none;
 	}
 	#banner>ul {
@@ -58,7 +61,7 @@
 	}
 	.menu-mobile {
 		background-color: #f3f3f3;
-		height: 20vh;
+		/* height: 20vh; */
 	}
 	.menu-mobile>div {
 		height: 50%;
@@ -71,101 +74,17 @@
 		align-items: center;
 		justify-content: center;
 	}
-	
-	.menu-bottom-mobile .fa-bars {
-		font-size: 2rem;
-	}
-	.menu-bottom-mobile> div {
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.menu-bottom-mobile> .col-6 > img {
-		height: 90%;	
-	}
-	.menu-bottom-mobile> .col-3 > img {
-		height: 60%;
-	}
-	.menu-bottom-mobile> .col-3 >i {
-		cursor: pointer;
-	}
-	#list-menu-mobile {
+	#slide {
 		display: none;
 	}
-	
-	.list-menu-mobile {
-		height: 100vh;
-		width: 100%;
-		/* background-color: aqua; */
-	}
-	.list-menu-mobile>div {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.logo-menu-mobile{
-		border-bottom: 2px solid orangered;
-		height: 15vh;
-	}
-	.logo-menu-mobile>img {
-		height: 90%;
-	}
-	.close-menu-mobile {
-		position: fixed;
-		display: flex;
-		align-items: center;
-		justify-content: center; 
-		top: 0; right: 0; width: 3rem;height: 3rem;
-	}
-	.close-menu-mobile>.fa-times {
-		font-size: 2rem;
-		cursor: pointer;
-	}
-	.nav-list-menu {
-		height: 70vh;
-		/* background-color: chartreuse; */
-	}
-	.nav-list-menu>ul {
-		/* background-color: brown; */
-		width: 100%;
-		height: 100%;
-	}
-	.nav-list-menu>ul>li {
-		list-style: none;
-		margin: 2rem;
-		border-bottom: 1px solid olive;
-		
-	}
-	.nav-list-menu>ul>li>a {
-		color: black;
-		font-size: 1.1rem;
-		font-weight: 600;
-	}
-	.nav-list-menu>ul>li>a:hover {
-		text-decoration: none;
-	}
-	.menu-con-mobile {
+	.img-qc-menu {
 		display: none;
 	}
-	.menu-con-mobile>li {
-		list-style: none;
-		margin: 0.5rem;
-	}
-	.menu-con-mobile>li>a {
+	.nav-item .nav-link-01 {
 		font-size: 1rem;
-		color: black;
-		font-weight: 500;
 	}
-	.show-menu-con-mobile-1 {
-		margin-left: 5rem;
-		cursor: pointer;
-		
-	}
-	.show-menu-con-mobile-2 {
-		margin-left: 5rem;
-		display: none;
-		cursor: pointer;
+	.list-unstyled li a {
+		font-size: 0.9rem;
 	}
 		
 }
@@ -211,9 +130,9 @@
 	#menu-mobile {
 		display: none;
 	}
-	#list-menu-mobile {
+	/* #list-menu-mobile {
 		display: none;
-	}
+	} */
 	.show-list-fter {
 		display: none;
 	}

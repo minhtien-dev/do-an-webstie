@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: #f3f3f3;
 }
-
 *,
 ::after ::before {
   margin: 0;
@@ -174,134 +173,6 @@ header .container-fluid {
    align-items: center;
    justify-content: center;
 }
-/* MENU BOTDOM  */
-.menubotdom {
-  width: 100%;
-  height: 10vh;
-  /* background-color: aqua; */
-  margin: 0;
-  padding: 0;
-  display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
-  /* display: none; */
-}
-.menubotdom>ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: blue; */
-  width: 50%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  /* position: relative; */
-}
-.menubotdom>ul>li {
-  /* background-color: brown; */
-  /* width: inherit; */
-  flex-grow: 1;
-  height: 100%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* border: 1px solid; */
-  /* position: relative; */
-
-}
-.menubotdom>ul>li>.active {
-  color: #ff0000;
-}
-.menubotdom>ul>li>a {
-  font-size: 1.1rem;
-  color: black;
-  font-weight: 750;
-  transition: 0.4s;
-}
-.menubotdom>ul>li>a:hover {
-  color: #ff0000;
-  text-decoration: none;
-}
-.menubotdom>ul>li>a>.fa-sort-down {
-  font-size: 1.2rem;
-  margin-left: 5px;
-  position: absolute;
-  margin-bottom: 10px;
-}
-/* MENU CON - MENU DA CAP */
-.list-sanpham {
-  /* position: relative; */
-  /* background-color: #ff0000; */
-}
-
-.list-sanpham .menu-con {
-  height: 50vh;
-  /* background-color: aqua; */
-  position: absolute;
-  z-index: 100;
-  margin-top: 60vh;
-  display: flex;
-  margin-left: 30vh;
-  display: none;
-}
-.list-sanpham:hover .menu-con {
-  display: block;
-}
-
-.menu-con>div {
-  width: inherit;
-  height: inherit;
-  /* border: 1px solid; */
-  border-radius: 10px;
-  border-top: 5px solid orangered;
-  margin: 0;
-  margin-left: 1.2rem;
-  background-color: #ccc;
-    -moz-box-shadow: 3px 3px   #666;
-    -webkit-box-shadow: 3px 3px   #666;
-    box-shadow: inset 10px 10px 5px #666, 10px 10px 5px #666;
-}
-.menu-con>div>div {
-  /* border: 1px solid; */
-  margin-top: 5px;
-}
-.list-menu-con>div>a>span {
-  font-size: 1rem;
-  font-weight: 700;
-  color: black;
-  transition: 0.3s;
-}
-.list-menu-con>div>a>span:hover {
-  color: #ff0000;
-}
-.list-menu-con>div>a:hover {
-  text-decoration: none;
-}
-.list-menu-con>div>ul {
-  /* background-color: #ff7600; */
-}
-.list-menu-con>div>ul>li {
-  list-style: none;
-  margin: 0.5rem;
-  margin-left: -2rem;
-}
-.list-menu-con>div>ul>li>a {
-  font-size: 0.9rem;
-  color: #737373;
-  font-weight: 500;
-  transition: 0.3s;
-}
-.list-menu-con>div>ul>li>a:hover{
-  color: rgb(24, 4, 4);
-  text-decoration: none;
-  font-weight: 600;
-}
-.list-menu-con>div>img {
-  width: 100%;
-  /* height: 100%; */
-}
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -313,7 +184,7 @@ header .container-fluid {
 
 .fade-in {
   animation: fade-in 1s;
-}
+} 
 /* MAIN */
 #list-rom {
   /* height: 100vh; */
@@ -741,15 +612,16 @@ header .container-fluid {
 	  height: 100%;
 	  width: 80%;
 	  border: 1px solid orangered;
-	  border-radius: 0.5rem;
+	  /* border-radius: 0.5rem; */
 	  display: flex;
 	  flex-direction: column;
 	  align-items: center;
 	  justify-content: center;
-	  background-color: #ccc;
-	  -moz-box-shadow: 3px 3px #666;
-	  -webkit-box-shadow: 3px 3px #666;
-	  box-shadow: inset 10px 10px 5px #666, 10px 10px 5px #666;
+	  /* background-color: #ccc; */
+	  background-color: #fff;
+	  -moz-box-shadow: 1px 1px #666;
+	  -webkit-box-shadow: 1px 1px #666;
+	  box-shadow: inset 5px 5px 5px #666, 5px 5px 5px #666;
   }
   .main-kthuc .card-kthuc>div {
 	  width: 90%;
